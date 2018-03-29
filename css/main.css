@@ -1,0 +1,189 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  background-color: #f9fafc;
+  color: #3d2a56;
+}
+
+#top-section, #contact {
+  height:500px;
+}
+
+#skills, #projects, #about {
+height:400px;
+}
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+.two-third-width {
+  width:750px;
+  float:left;
+}
+
+
+/******** HEADER **********/
+
+header {
+  height:150px;
+  border-bottom: 2px solid #73adc3;
+}
+/*** All Fredericka font noted as 400 as otherwise Chrome updates to bold ***/
+header h1{
+  font-family: 'Fredericka the Great', cursive;
+  font-weight:400;
+  font-size: 48px;
+  padding: 25px 0;
+}
+
+/******** NAVIGATION **********/
+nav {
+    float: right;
+    padding: 65px 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #3d2a56;
+    padding-left: 40px;
+}
+
+/****** TOP SECTION - image and paragraph Also, general CSS ****/
+
+ #top-section h3{
+  width: 1000px;
+  font-family: 'Raleway', sans-serif;
+  font-size:36px;
+  line-height: 48px;
+  font-weight:bold;
+  padding: 50px 0;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size:24px;
+  line-height: 36px;
+  font-weight:bold;
+}
+
+span{
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: 400;
+  font-size: 36px;
+  padding: 80px 0px 20px 0px;
+}
+
+h2 {
+  clear:both;
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 40px 0;
+}
+
+a{
+  text-decoration: none;
+  color: #3d2a56;
+}
+
+p{
+    font-weight: bold;
+    color: #3d2a56;
+}
+
+#skills {
+  text-align:center;
+  padding:50px 0;
+}
+
+#self-portrait {
+padding: 0px 0px 0px 50px;
+}
+
+#projects p{
+  text-align:center;
+}
+
+#social-media {
+  list-style: none;
+  padding-top:50px;
+  margin-left: -85px;
+}
+
+#social-media li{
+  display:inline;
+  margin-left: 50px;
+}
+
+/*** Get in Touch ***/
+#git-header{
+  font-family: 'Raleway', sans-serif;
+  font-size:18px;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+
+
+
+#email-icon {
+  padding-left:50px;
+vertical-align: middle;
+}
+
+#email-text{
+  font-family: 'Fredericka the Great',cursive;
+  font-weight: 400;
+}
+
+
+/*
+.button {
+    background-color: #3d2a56;
+    border: 2px solid #73adc3;
+    color: #f9fafc;
+    padding: 4px 32px;
+    text-align: center;
+    text-decoration: none;
+    text-transform:uppercase;
+    display: inline-block;
+    font-size: 16px;
+  }
+*/
+  footer {
+    height:80px;
+    border-top:2px solid #73adc3;
+  }
+
+  footer p {
+    text-align:center;
+    color: #3d2a56;
+  }
+
+
+  #foot {
+    border-left:2px solid #73adc3;
+    border-right:2px solid #73adc3;
+  }
